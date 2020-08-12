@@ -1,5 +1,9 @@
 package com.haresh.amazon;
 
+/*
+ * Find a pair with maximum product in array of Integers
+ */
+
 public class MaxProduct {
 	 /* Driver program to test above function */
     public static void main(String[] args)  

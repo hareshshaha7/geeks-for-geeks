@@ -1,8 +1,9 @@
 package com.haresh.amazon;
 
 /*
+ 	 Write a Program to Find the Maximum Depth or Height of a Tree
+ 	 
 	 Algorithm:
-	
 	 maxDepth()
 	1. If tree is empty then return 0
 	2. Else

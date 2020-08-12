@@ -1,5 +1,9 @@
 package com.haresh.amazon;
 
+/*
+ * Given a binary string, count number of substrings that start and end with 1
+ */
+
 //A O(n) C++ program to count number of substrings  
 //starting and ending with 1 
 
