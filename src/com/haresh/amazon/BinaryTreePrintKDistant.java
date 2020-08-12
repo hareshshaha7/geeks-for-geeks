@@ -39,7 +39,12 @@ public class BinaryTreePrintKDistant {
 		BinaryTreePrintKDistant tree = new BinaryTreePrintKDistant();
 
 		/*
-		 * Constructed binary tree is 1 / \ 2 3 / \ / 4 5 8
+		 * Constructed binary tree is 
+		 *     1 
+		 *   /   \ 
+		 *  2     3 
+		 * / \   / 
+		 *4   5 8
 		 */
 		tree.root = new Node1(1);
 		tree.root.left = new Node1(2);

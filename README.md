@@ -10,3 +10,4 @@ Problems from Gigs For Gigs
 <br/> <b> DeleteNode: </b> Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it?
 <br/> <b> BinaryTreeMaxDepth: </b> Write a Program to Find the Maximum Depth or Height of a Tree
 <br/> <b> BinaryTreePrintKDistant: </b> Print nodes at k distance from root
+<br/> <b> BinaryTreeEvenOddLevelDifference: </b> Difference between sums of odd level and even level nodes of a Binary Tree 
