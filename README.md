@@ -17,3 +17,4 @@ Problems from Gigs For Gigs
 <br/> <b> CountNumberOfOccurrences: </b> Count number of occurrences (or frequency) in a sorted array
 <br/> <b> SubArraysWithSum0: </b> Print all subarrays with 0 sum
 <br/> <b> PairForGivenSum: </b> Print all pairs with given sum
+<br/> <b> BSTWithGreaterSum: </b> Transform a BST to greater sum tree

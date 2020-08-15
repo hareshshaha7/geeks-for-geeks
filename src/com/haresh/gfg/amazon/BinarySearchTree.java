@@ -45,7 +45,7 @@ class BinarySearchTree1 {
 			return;
 		
 		inOrder(root.left);
-		System.out.println(root.data);
+		System.out.print(root.data + " ");
 		inOrder(root.right);	
 	}
 	
