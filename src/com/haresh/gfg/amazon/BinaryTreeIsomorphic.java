@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  	Tree Isomorphism Problem

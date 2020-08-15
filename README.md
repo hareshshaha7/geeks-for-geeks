@@ -13,3 +13,5 @@ Problems from Gigs For Gigs
 <br/> <b> BinaryTreeEvenOddLevelDifference: </b> Difference between sums of odd level and even level nodes of a Binary Tree 
 <br/> <b> Replace0with5: </b> Replace all ‘0’ with ‘5’ in an input Integer
 <br/> <b> Isomorphic: </b> Tree Isomorphism Problem 
+<br/> <b> SearchSortedRotatedArray: </b> sortedPivotedArray: Search an element in a sorted and rotated array
+<br/> <b> CountNumberOfOccurrences: </b> Count number of occurrences (or frequency) in a sorted array

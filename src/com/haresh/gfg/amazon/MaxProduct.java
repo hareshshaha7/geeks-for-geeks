@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  * Find a pair with maximum product in array of Integers

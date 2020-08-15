@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  	 Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it?

@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  * Print nodes at k distance from root

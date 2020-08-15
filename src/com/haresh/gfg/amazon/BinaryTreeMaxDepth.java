@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  	 Write a Program to Find the Maximum Depth or Height of a Tree

@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  * Count all possible paths from top left to bottom right of a mXn matrix

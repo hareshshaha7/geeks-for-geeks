@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  	Replace all ‘0’ with ‘5’ in an input Integer

@@ -1,4 +1,4 @@
-package com.haresh.amazon;
+package com.haresh.gfg.amazon;
 
 /*
  	Difference between sums of odd level and even level nodes of a Binary Tree
