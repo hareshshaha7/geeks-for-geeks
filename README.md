@@ -18,3 +18,4 @@ Problems from Gigs For Gigs
 <br/> <b> SubArraysWithSum0: </b> Print all subarrays with 0 sum
 <br/> <b> PairForGivenSum: </b> Print all pairs with given sum
 <br/> <b> BSTWithGreaterSum: </b> Transform a BST to greater sum tree
+<br/> <b> IntersectionOfIntervals: </b> Find intersection of intervals given by two lists
