@@ -1,5 +1,7 @@
 package com.haresh.gfg.amazon;
 
+import com.haresh.gfg.amazon.BinaryTreeEvenOddLevelDifference.Node;
+
 /*
  	 Write a Program to Find the Maximum Depth or Height of a Tree
  	 
@@ -21,18 +23,18 @@ package com.haresh.gfg.amazon;
 
 // Java program to find height of tree 
 
-// A binary tree node 
-class Node {
-	int data;
-	Node left, right;
-
-	Node(int item) {
-		data = item;
-		left = right = null;
-	}
-}
-
 public class BinaryTreeMaxDepth {
+
+	// Class containing left and right child of current node and key value
+	public static class Node {
+		int data;
+		Node left;
+		Node right;
+		Node(int d){
+			data = d;
+		}
+	}
+	
 	Node root;
 
 	/*

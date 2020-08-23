@@ -8,6 +8,17 @@ package com.haresh.gfg.amazon;
  */
 
 public class BinaryTreeEvenOddLevelDifference {
+
+	// Class containing left and right child of current node and key value
+	public static class Node {
+		int data;
+		Node left;
+		Node right;
+		Node(int d){
+			data = d;
+		}
+	}
+
 	Node root;
 		
 	// Driver program to test above functions 

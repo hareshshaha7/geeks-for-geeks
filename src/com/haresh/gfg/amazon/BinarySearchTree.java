@@ -4,7 +4,7 @@ package com.haresh.gfg.amazon;
 class BinarySearchTree1 {
 
 	// Class containing left and right child of current node and key value
-	public class Node {
+	class Node {
 		int data;
 		Node left;
 		Node right;
@@ -12,7 +12,7 @@ class BinarySearchTree1 {
 			data = d;
 		}
 	}
-	
+
 	// Root of BST 
 	Node root;
 	

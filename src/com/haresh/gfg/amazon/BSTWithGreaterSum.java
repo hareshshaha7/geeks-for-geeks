@@ -23,6 +23,7 @@ import com.haresh.gfg.amazon.BinarySearchTree1.Node;
  */
 
 class BSTWithGreaterSum1 {
+
 	int sum;
 	
 	public BSTWithGreaterSum1() {

@@ -9,20 +9,21 @@ package com.haresh.gfg.amazon;
 /* A binary tree node has data, pointer to left child 
    and a pointer to right child */
 
-class Node1 {
-	int data;
-	Node1 left, right;
-
-	Node1(int item) {
-		data = item;
-		left = right = null;
-	}
-}
-
 public class BinaryTreePrintKDistant {
-	Node1 root;
 
-	void printKDistant(Node1 node, int k) {
+	// Class containing left and right child of current node and key value
+	public static class Node {
+		int data;
+		Node left;
+		Node right;
+		Node(int d){
+			data = d;
+		}
+	}
+	
+	Node root;
+
+	void printKDistant(Node node, int k) {
 		if (node == null)
 			return;
 		if (k == 0) {
@@ -46,12 +47,12 @@ public class BinaryTreePrintKDistant {
 		 * / \   / 
 		 *4   5 8
 		 */
-		tree.root = new Node1(1);
-		tree.root.left = new Node1(2);
-		tree.root.right = new Node1(3);
-		tree.root.left.left = new Node1(4);
-		tree.root.left.right = new Node1(5);
-		tree.root.right.left = new Node1(8);
+		tree.root = new Node(1);
+		tree.root.left = new Node(2);
+		tree.root.right = new Node(3);
+		tree.root.left.left = new Node(4);
+		tree.root.left.right = new Node(5);
+		tree.root.right.left = new Node(8);
 
 		tree.printKDistant(tree.root, 2);
 	}

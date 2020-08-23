@@ -17,6 +17,17 @@ package com.haresh.gfg.amazon;
  */
 
 public class BinaryTreeIsomorphic {
+
+	// Class containing left and right child of current node and key value
+	public static class Node {
+		int data;
+		Node left;
+		Node right;
+		Node(int d){
+			data = d;
+		}
+	}
+	
 	Node root1, root2;
 
 	/* Given a binary tree, print its nodes in reverse level order */
