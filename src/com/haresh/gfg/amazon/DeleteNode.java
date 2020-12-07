@@ -4,8 +4,7 @@ package com.haresh.gfg.amazon;
  	 Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it?
 
 	 This solution doesn’t work if the node to be deleted is the last node of the list. 
-	 To make this solution work we can mark the end node as a dummy node. 
-	 But the programs/functions that are using this function should also be modified.
+	 To make this solution work we can mark the end node as a dummy node.
  */
 
 public class DeleteNode {
