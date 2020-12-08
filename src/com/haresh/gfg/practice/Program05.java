@@ -30,6 +30,7 @@ public class Program05 {
 
 		// Java 8
 		Xerox x1 = () -> System.out.println("Hello");
+		x1.print();
 
 		// Java 7
 		/*
@@ -42,6 +43,7 @@ public class Program05 {
 
 		// Java 8
 		XeroxMultiply xMultiplication = (num) -> System.out.println(num * num);
+		xMultiplication.square(5);
 
 		// Java 7
 		/*
@@ -54,11 +56,13 @@ public class Program05 {
 
 		// Java 8
 		Multiply multiplication1 = num -> num * num;
+		System.out.println(multiplication1.square(8));
 		// OR
 		Multiply multiplication2 = (num) -> {
 			return num * num;
 		};
-
+		System.out.println(multiplication2.square(12));
+		
 		// Java 7
 		/*
 			class Add implements Addition {
@@ -70,7 +74,7 @@ public class Program05 {
 
 		// Java 8
 		Addition add = (num1, num2) -> num1 + num2;
-
+		System.out.println(add.sum(12, 32));
 	}
 
 }
