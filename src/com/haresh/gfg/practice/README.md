@@ -8,3 +8,4 @@
 <br/> <b> Program 04: </b> Java 8 - Functional Programming
 <br/> <b> Program 05: </b> Java 8 - Lambda Expression through Interfaces
 <br/> <b> Program 06: </b> Java 8 - Lambda Expression with multi-threading
+<br/> <b> Program 07: </b> Java 8 - Predefined Functional Interface
