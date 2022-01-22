@@ -36,3 +36,10 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> Program 07: </b> Java 8 - Predefined Functional Interface
 <br/> <b> Program 08: </b> Java 8 - Predefined Functional Interface for 2 arguments
 <br/> <b> Program 08: </b> Concurrency - Use case
+
+-------
+<br/>
+
+<b> Must Do Coding Questions for Product Based Companies </b>
+<br/>
+<br/> <b> Program01: </b> Missing number in array
