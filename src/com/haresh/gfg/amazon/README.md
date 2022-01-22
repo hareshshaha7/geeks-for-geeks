@@ -21,18 +21,3 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> IntersectionOfIntervals: </b> Find intersection of intervals given by two lists
 <br/> <b> DFSGraph: </b> Depth First Search or DFS for a Graph
 <br/> <b> BFSGraph: </b> Breadth First Search or BFS for a Graph
-
--------
-<br/>
-
-<b> Interviews </b>
-<br/>
-<br/> <b> Program 01: </b> Mario and the princess
-<br/> <b> Program 02: </b> Inheritance Twister
-<br/> <b> Program 03: </b> Get Reportees
-<br/> <b> Program 04: </b> Java 8 - Functional Programming
-<br/> <b> Program 05: </b> Java 8 - Lambda Expression through Interfaces
-<br/> <b> Program 06: </b> Java 8 - Lambda Expression with multi-threading
-<br/> <b> Program 07: </b> Java 8 - Predefined Functional Interface
-<br/> <b> Program 08: </b> Java 8 - Predefined Functional Interface for 2 arguments
-<br/> <b> Program 08: </b> Concurrency - Use case
