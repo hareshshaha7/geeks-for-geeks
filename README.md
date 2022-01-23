@@ -44,3 +44,4 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/>
 <br/> <b> Program01: </b> [Easy] Missing number in array
 <br/> <b> Program02: </b> [Easy] Trailing zeroes in factorial 
+<br/> <b> Program03: </b> [Medium] A Simple Fraction
