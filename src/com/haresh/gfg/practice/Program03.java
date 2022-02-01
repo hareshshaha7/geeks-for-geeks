@@ -56,8 +56,8 @@ public class Program03 {
 	}
 
 	public List<Employee> getAllReportees(int empId) {
-		List<Employee> reportees = new ArrayList<Employee>();
-		Queue<Employee> employeesToBeVisisted = new ArrayDeque<Employee>();
+		List<Employee> reportees = new ArrayList<>();
+		Queue<Employee> employeesToBeVisisted = new ArrayDeque<>();
 		employeesToBeVisisted.add(employees.get(empId));
 		
 		while (employeesToBeVisisted.size() != 0) {
