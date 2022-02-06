@@ -25,6 +25,13 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 -------
 <br/>
 
+<b> Google Interview Preparation </b>
+<br/>
+<br/> <b> Program 01: </b> [Easy] Mirror Tree
+
+-------
+<br/>
+
 <b> Interviews </b>
 <br/>
 <br/> <b> Program 01: </b> Mario and the princess
