@@ -4,3 +4,4 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <b> Google Interview Preparation </b>
 <br/>
 <br/> <b> Program 01: </b> [Easy] Mirror Tree
+<br/> <b> Program 02: </b> [Easy] Frequency Game

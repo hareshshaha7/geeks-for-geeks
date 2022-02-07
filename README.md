@@ -31,12 +31,15 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> DFSGraph: </b> Depth First Search or DFS for a Graph
 <br/> <b> BFSGraph: </b> Breadth First Search or BFS for a Graph
 
+
 -------
 <br/>
 
 <b> Google Interview Preparation </b>
 <br/>
 <br/> <b> Program 01: </b> [Easy] Mirror Tree
+<br/> <b> Program 02: </b> [Easy] Frequency Game
+
 
 -------
 <br/>
@@ -54,6 +57,7 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> Program 09: </b> Concurrency - Use case
 <br/> <b> Program 10: </b> Get Reportees
 <br/> <b> Program 11: </b> Find Second Highest
+
 
 -------
 <br/>
