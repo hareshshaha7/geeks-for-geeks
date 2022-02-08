@@ -5,3 +5,4 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/>
 <br/> <b> Program 01: </b> [Easy] Mirror Tree
 <br/> <b> Program 02: </b> [Easy] Frequency Game
+<br/> <b> Program 03: </b> [Medium] Generate Parentheses 
