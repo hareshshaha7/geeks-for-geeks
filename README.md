@@ -42,6 +42,7 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> Program 01: </b> [Easy] Mirror Tree
 <br/> <b> Program 02: </b> [Easy] Frequency Game
 <br/> <b> Program 03: </b> [Medium] Generate Parentheses 
+<br/> <b> Program 04: </b> [Basic] Find triplets with zero sum
 
 
 -------
