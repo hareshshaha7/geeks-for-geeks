@@ -8,3 +8,4 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> Program 03: </b> [Medium] Generate Parentheses 
 <br/> <b> Program 04: </b> [Basic] Find triplets with zero sum
 <br/> <b> Program 05: </b> [Easy] Remove duplicate elements from sorted Array
+<br/> <b> Program 06: </b> [Medium] LRU Cache
