@@ -9,3 +9,4 @@ Learn competitive programming through [GeeksforGeeks](https://practice.geeksforg
 <br/> <b> Program 04: </b> [Easy] Largest value in each level
 <br/> <b> Program 05: </b> [Medium] Find Missing And Repeating
 <br/> <b> Program 06: </b> [Basic] Anagram of String
+<br/> <b> Program 07: </b> [Medium] Find rectangle with corners as 1 

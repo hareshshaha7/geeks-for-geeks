@@ -9,6 +9,7 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> Program 04: </b> [Easy] Largest value in each level
 <br/> <b> Program 05: </b> [Medium] Find Missing And Repeating
 <br/> <b> Program 06: </b> [Basic] Anagram of String
+<br/> <b> Program 07: </b> [Medium] Find rectangle with corners as 1 
 
 
 -------
@@ -77,3 +78,4 @@ Learn competitive programming through [GeeksforGeeks](https://www.geeksforgeeks.
 <br/> <b> Program 03: </b> [Medium] A Simple Fraction
 <br/> <b> Program 04: </b> [Hard] Nth Natural Number
 <br/> <b> Program 05: </b> [Hard] Smallest Positive Integer that can not be represented as Sum
+<br/> <b> Program 06: </b> [Easy] Rotate Array
