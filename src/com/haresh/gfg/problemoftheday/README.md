@@ -11,3 +11,4 @@ Learn competitive programming through [GeeksforGeeks](https://practice.geeksforg
 <br/> <b> Program 06: </b> [Basic] Anagram of String
 <br/> <b> Program 07: </b> [Medium] Find rectangle with corners as 1 
 <br/> <b> Program 08: </b> [Medium] Merge K sorted linked lists
+<br/> <b> Program 09: </b> [Easy] Reverse a string using Stack
