@@ -1,4 +1,4 @@
-package com.haresh.gfg.mustdo;
+package com.haresh.gfg.mustdo.math;
 
 /*
     Smallest Positive Integer that can not be represented as Sum
