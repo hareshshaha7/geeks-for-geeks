@@ -45,10 +45,14 @@ package com.haresh.gfg.problemoftheday;
 
 import java.util.HashMap;
 
+/**
+ * @author Haresh Shaha
+ * @since 10-Mar-2022
+ */
 public class Program10 {
     public static void main(String[] args) {
-        int n = 1;
-        String s = "8";
+        int n = 6;
+        String s = "234567";
         String number = sevenSegments(s, n);
         System.out.println(number);
     }
