@@ -13,3 +13,4 @@ Learn competitive programming through [GeeksforGeeks](https://practice.geeksforg
 <br/> <b> Program 08: </b> [Medium] Merge K sorted linked lists
 <br/> <b> Program 09: </b> [Easy] Reverse a string using Stack
 <br/> <b> Program 10: </b> [Medium] 7 Segment Display
+<br/> <b> Program 11: </b> [Medium] Height Using Parent Array
