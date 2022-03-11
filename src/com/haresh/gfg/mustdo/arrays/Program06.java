@@ -45,13 +45,18 @@ public class Program06 {
         int[] arr = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
         int n = 10, d = 3;
 
-        System.out.println("Original: ");
+        System.out.println("Array before Rotation: ");
+        printArray(arr);
+        rotate1(arr, d, n);
+        System.out.println("\nArray after Rotation: ");
         printArray(arr);
 
-        System.out.println();
-        rotateArr(arr, d, n);
-        System.out.println("Rotated: ");
-        printArray(arr);
+        System.out.println("\n\nArray before Rotation: ");
+        int[] arr1 = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+        printArray(arr1);
+        rotate2(arr1, d, n);
+        System.out.println("\nArray after Rotation: ");
+        printArray(arr1);
     }
 
     private static void printArray(int[] arr) {
@@ -60,48 +65,63 @@ public class Program06 {
         }
     }
 
-    public static void rotateArr(int[] arr, int d, int n) {
-        // add your code here
-        d= d%n;
+    // Solution with extra space
+    public static void rotate1(int[] nums, int d, int n) {
+        if (nums.length < 2)
+            return;
+
+        d = d % n;
         if (d == 0)
             return;
 
-        int left = 0;
-        int right = d;
-        while (left < n && right >= left) {
-            int temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
+        int index = d;
+        int[] result = new int[n];
+        int i = 0;
+        while (index < n) {
+            result[i++] = nums[index++];
+        }
 
-            printArray(arr);
-            System.out.println();
+        index = 0;
+        while (index < d) {
+            result[i++] = nums[index++];
+        }
 
-            left++;
-            if (right < n-1)
-                right++;
-            else if (d>=n/2)
-                right=d;
-            else if (d>0 && right ==n-1&& left == n) {
-                System.out.println("-----");
-                left = n-d;
-                d--;
-            }
+        for (i = 0; i < n; i++) {
+            nums[i] = result[i];
+        }
+    }
 
 
+    /**
+     * The basic idea is that,
+     * for example, nums = [1,2,3,4,5,6,7] and d = 3, n = 7
+     * first we reverse [1,2,3,4], it becomes[4,3,2,1];
+     * then we reverse[5,6,7], it becomes[7,6,5],
+     * finally we reverse the array as a whole, it becomes[4,3,2,1,7,6,5] ---> [5,6,7,1,2,3,4].
+     * <p>
+     * Reverse is done by using two pointers, one point at the head and the other point at the tail,
+     * after switch these two, these two pointers move one position towards the middle.
+     */
+    public static void rotate2(int[] nums, int d, int n) { // Without using extra space
+        if (nums.length < 2)
+            return;
+
+        d = d % n;
+        if (d == 0)
+            return;
+
+        reverse(nums, 0, d - 1);
+        reverse(nums, d, n - 1);
+        reverse(nums, 0, n - 1);
+    }
+
+    private static void reverse(int[] nums, int i, int j) {
+        while (i < j) {
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+            i++;
+            j--;
         }
     }
 }
-// 2 4 6 8 10 12 14 16 18 20
-// 4 6 8 10 12 14 16 18 20 2
-// 6 8 10 12 14 16 18 20 2 4
-// 8 10 12 14 16 18 20 2 4 6
-
-// 2 4 6 8 10 12 14 16 18 20
-// 8 4 6 14 10 12 2 16 18 20
-// 8 10 6 14 16 12 2 4 18 20
-// 8 10 12 14 16 18 2 4 6 20
-
-// 8 10 12 14 16 18 20 2 4 6
-
-
-//  16 18 20 2 4 6 14 8 10 12
